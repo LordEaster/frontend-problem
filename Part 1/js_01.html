@@ -5,7 +5,12 @@
 
 <!-- Coding JavaScript 1.1 here!!!! -->
 
-
+<script>
+    let btn1_1 = document.getElementById("btn1_1");
+    btn1_1.addEventListener("click", () => {
+        alert("My name is " + 'Kyrie');
+    })
+</script>
 
 <!-- Coding JavaScript 1.1 here!!!! -->
 <hr>
@@ -16,7 +21,18 @@
 
 <button class="btn btn-primary"  id="btn1_2"  >คลิกที่นี่ JS1.2</button>
 <!-- Coding JavaScript 1.2 here!!!! -->
-
-
+<script>
+    let btn1_2 = document.getElementById("btn1_2");
+    let input, long;
+    btn1_2.addEventListener('click', () => {
+        input = prompt("Please enter your word");
+        long = input.length; 
+        alert("จำนวน Character ของ " + input + " คือ " + long);
+    })  
+       
+   
+    
+       
+</script>
 
 <!-- Coding JavaScript 1.2 here!!!! -->
